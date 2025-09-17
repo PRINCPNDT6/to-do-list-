@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    height: 100vh;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+
+
+}
+
+.box{
+    width: 700px;
+    min-height: 500px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10%;
+    border-bottom: 2px solid #2c3e50;
+    border-left: 2px solid #2c3e50;
+    box-shadow: 1px 1px 10px;
+    position: relative;
+
+
+}
+
+.todo-heading {
+    text-align: center;
+    margin-bottom: 12px;
+    color: #2c3e50;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+.instructions {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #34495e;
+    background: #eaf6fb;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+#item{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;;
+    box-shadow: 0px 0px 2px gray;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#to-do-box{
+    margin-top: 20px;
+    list-style: none
+}
+#to-do-box li{
+    position: relative;
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+    user-select: none;
+    height: 40px;
+}
+#to-do-box li b{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+.done{
+    text-decoration: line-through;
+    color: black;
+    background-color: #95a5a6;
+}
+
+.signature {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+     margin-top: 30px;
+    font-size: 14px;
+    color: #888;
+    font-style: italic;
+    letter-spacing: 2px;
+    user-select: none;
+}
